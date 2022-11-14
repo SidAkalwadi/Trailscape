@@ -307,7 +307,11 @@ export default {
     },
     async sendFileData () {
       console.log('sending file data')
-      this.editmode = false
+      if(this.markers.length === 0){
+        alert("Oops! Nothing was addded here!")
+        return;
+      }
+      document.getElementById("saveButton").style.display = "none"
       this.updateTitlesAndCaptions()
       const body = {
         captions: [],
