@@ -1,0 +1,129 @@
+[debug] [2022-10-30T04:41:47.412Z] ----------------------------------------------------------------------
+[debug] [2022-10-30T04:41:47.414Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Siddharth\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-10-30T04:41:47.415Z] CLI Version:   11.15.0
+[debug] [2022-10-30T04:41:47.415Z] Platform:      win32
+[debug] [2022-10-30T04:41:47.415Z] Node Version:  v16.17.0
+[debug] [2022-10-30T04:41:47.416Z] Time:          Sun Oct 30 2022 00:41:47 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-10-30T04:41:47.416Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-30T04:41:47.502Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-30T04:41:47.502Z] > authorizing via signed-in user (asiddu2009@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2022-10-30T04:41:47.523Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-10-30T04:41:47.524Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2022-10-30T04:41:47.534Z] [hub] writing locator at C:\Users\SIDDHA~1\AppData\Local\Temp\hub-trailscape-send.json
+[debug] [2022-10-30T04:41:47.601Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-10-30T04:41:47.602Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-10-30T04:41:47.602Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-10-30T04:41:47.639Z] defaultcredentials: writing to file C:\Users\Siddharth\AppData\Roaming\firebase\asiddu2009_gmail_com_application_default_credentials.json
+[debug] [2022-10-30T04:41:47.645Z] Setting GAC to C:\Users\Siddharth\AppData\Roaming\firebase\asiddu2009_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Siddharth\\AppData\\Roaming\\firebase\\asiddu2009_gmail_com_application_default_credentials.json"}}
+[debug] [2022-10-30T04:41:47.651Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/trailscape-send/adminSdkConfig [none]
+[debug] [2022-10-30T04:41:47.949Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/trailscape-send/adminSdkConfig 200
+[debug] [2022-10-30T04:41:47.949Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/trailscape-send/adminSdkConfig {"projectId":"trailscape-send","storageBucket":"trailscape-send.appspot.com","locationId":"us-east1"}
+[debug] [2022-10-30T04:41:47.972Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-10-30T04:41:47.972Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-10-30T04:41:47.973Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Siddharth\\.cache\\firebase\\emulators\\ui-v1.11.1\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Siddharth\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.1\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-10-30T04:41:48.155Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2022-10-30T04:41:48.156Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Personal Files\Siddharth\HTML\Google Maps Hackathon\backend\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Personal Files\\Siddharth\\HTML\\Google Maps Hackathon\\backend\\functions\" for Cloud Functions..."}}
+[debug] [2022-10-30T04:41:48.275Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-10-30T04:41:51.909Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@firebase/storage": "^0.9.13",
+    "firebase-admin": "^10.3.0",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-10-30T04:41:51.909Z] Building nodejs source
+[debug] [2022-10-30T04:41:51.909Z] Analyzing nodejs backend spec
+[debug] [2022-10-30T04:41:51.911Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-10-30T04:41:52.388Z] Serving at port 9006
+
+[debug] [2022-10-30T04:41:52.487Z] Got response from /__/functions.yaml {"endpoints":{"imageList":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"imageList"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-10-30T04:41:52.504Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: imageList. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: imageList."}}
+[info] +  functions[us-central1-imageList]: http function initialized (http://127.0.0.1:5001/trailscape-send/us-central1/imageList). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/trailscape-send/us-central1/imageList)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-10-30T04:41:57.374Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-10-30T04:41:57.375Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-10-30T04:41:57.376Z] Accepted request GET /trailscape-send/us-central1/imageList --> us-central1-imageList
+[debug] [2022-10-30T04:41:57.379Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-10-30T04:41:57.380Z] [functions] Got req.url=/trailscape-send/us-central1/imageList, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/trailscape-send/us-central1/imageList, mapping to path=/"}}
+[debug] [2022-10-30T04:41:57.402Z] [worker-pool] addWorker(us-central1-imageList) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-imageList)"}}
+[debug] [2022-10-30T04:41:57.402Z] [worker-pool] Adding worker with key us-central1-imageList, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-imageList, total=1"}}
+[debug] [2022-10-30T04:42:00.118Z] [runtime-status] [4628] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Personal Files\\Siddharth\\HTML\\Google Maps Hackathon\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageList"},"extension":{},"message":"[runtime-status] [4628] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Personal Files\\\\Siddharth\\\\HTML\\\\Google Maps Hackathon\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-10-30T04:42:00.120Z] [runtime-status] [4628] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"C:\\Personal Files\\Siddharth\\HTML\\Google Maps Hackathon\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageList"},"extension":{},"message":"[runtime-status] [4628] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"C:\\\\Personal Files\\\\Siddharth\\\\HTML\\\\Google Maps Hackathon\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-10-30T04:42:00.121Z] [runtime-status] [4628] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageList"},"extension":{},"message":"[runtime-status] [4628] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-10-30T04:42:00.122Z] [runtime-status] [4628] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"C:\\Personal Files\\Siddharth\\HTML\\Google Maps Hackathon\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageList"},"extension":{},"message":"[runtime-status] [4628] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"C:\\\\Personal Files\\\\Siddharth\\\\HTML\\\\Google Maps Hackathon\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-10-30T04:42:00.201Z] [runtime-status] [4628] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageList"},"extension":{},"message":"[runtime-status] [4628] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-10-30T04:42:00.202Z] [runtime-status] [4628] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.24.1","resolution":"C:\\Personal Files\\Siddharth\\HTML\\Google Maps Hackathon\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageList"},"extension":{},"message":"[runtime-status] [4628] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"C:\\\\Personal Files\\\\Siddharth\\\\HTML\\\\Google Maps Hackathon\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-10-30T04:42:00.203Z] [runtime-status] [4628] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"C:\\Personal Files\\Siddharth\\HTML\\Google Maps Hackathon\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageList"},"extension":{},"message":"[runtime-status] [4628] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"C:\\\\Personal Files\\\\Siddharth\\\\HTML\\\\Google Maps Hackathon\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-10-30T04:42:00.206Z] [runtime-status] [4628] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Personal Files\\Siddharth\\HTML\\Google Maps Hackathon\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageList"},"extension":{},"message":"[runtime-status] [4628] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Personal Files\\\\Siddharth\\\\HTML\\\\Google Maps Hackathon\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-10-30T04:42:00.207Z] [runtime-status] [4628] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"C:\\Personal Files\\Siddharth\\HTML\\Google Maps Hackathon\\backend\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageList"},"extension":{},"message":"[runtime-status] [4628] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"C:\\\\Personal Files\\\\Siddharth\\\\HTML\\\\Google Maps Hackathon\\\\backend\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-10-30T04:42:00.208Z] [runtime-status] [4628] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Personal Files\\Siddharth\\HTML\\Google Maps Hackathon\\backend\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageList"},"extension":{},"message":"[runtime-status] [4628] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Personal Files\\\\Siddharth\\\\HTML\\\\Google Maps Hackathon\\\\backend\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-10-30T04:42:00.211Z] [runtime-status] [4628] initializeApp(DEFAULT) {"storageBucket":"trailscape-send.appspot.com","projectId":"trailscape-send"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageList"},"extension":{},"message":"[runtime-status] [4628] initializeApp(DEFAULT) {\"storageBucket\":\"trailscape-send.appspot.com\",\"projectId\":\"trailscape-send\"}"}}
+[debug] [2022-10-30T04:42:00.219Z] [runtime-status] [4628] Functions runtime initialized. {"cwd":"C:\\Personal Files\\Siddharth\\HTML\\Google Maps Hackathon\\backend\\functions","node_version":"16.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageList"},"extension":{},"message":"[runtime-status] [4628] Functions runtime initialized. {\"cwd\":\"C:\\\\Personal Files\\\\Siddharth\\\\HTML\\\\Google Maps Hackathon\\\\backend\\\\functions\",\"node_version\":\"16.17.0\"}"}}
+[debug] [2022-10-30T04:42:00.219Z] [runtime-status] [4628] Listening to port: \\?\pipe\fire_emu_5aa4b51f6452054b {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageList"},"extension":{},"message":"[runtime-status] [4628] Listening to port: \\\\?\\pipe\\fire_emu_5aa4b51f6452054b"}}
+[debug] [2022-10-30T04:42:00.301Z] [worker-pool] submitRequest(triggerId=us-central1-imageList) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-imageList)"}}
+[debug] [2022-10-30T04:42:00.301Z] [worker-us-central1-imageList-01c7a1bf-825d-4792-bd08-987eb514606a]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-imageList-01c7a1bf-825d-4792-bd08-987eb514606a]: BUSY"}}
+[info] i  functions: Beginning execution of "imageList" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageList"},"extension":{},"message":"Beginning execution of \"imageList\""}}
+[info] >  {"severity":"INFO","message":"undefined"} {"user":{"severity":"INFO","message":"undefined"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageList"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"severity\":\"INFO\",\"message\":\"undefined\"}"}}
+[warn] !  functions: The Firebase Storage emulator is not running, so calls to Firebase Storage will affect production. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageList"},"extension":{},"message":"The Firebase Storage emulator is not running, so calls to Firebase Storage will affect production."}}
+[warn] !  functions: TypeError: storage.ref is not a function
+    at C:\Personal Files\Siddharth\HTML\Google Maps Hackathon\backend\functions\index.js:10:28
+    at cloudFunction (C:\Personal Files\Siddharth\HTML\Google Maps Hackathon\backend\functions\node_modules\firebase-functions\lib\providers\https.js:50:16)
+    at C:\Users\Siddharth\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:530:16
+    at runFunction (C:\Users\Siddharth\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:504:15)
+    at runHTTPS (C:\Users\Siddharth\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:529:11)
+    at C:\Users\Siddharth\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:694:27
+    at Layer.handle [as handle_request] (C:\Users\Siddharth\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Siddharth\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\express\lib\router\route.js:137:13)
+    at next (C:\Users\Siddharth\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\express\lib\router\route.js:131:14)
+    at next (C:\Users\Siddharth\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\express\lib\router\route.js:131:14) {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageList"},"extension":{},"message":"TypeError: storage.ref is not a function\n    at C:\\Personal Files\\Siddharth\\HTML\\Google Maps Hackathon\\backend\\functions\\index.js:10:28\n    at cloudFunction (C:\\Personal Files\\Siddharth\\HTML\\Google Maps Hackathon\\backend\\functions\\node_modules\\firebase-functions\\lib\\providers\\https.js:50:16)\n    at C:\\Users\\Siddharth\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:530:16\n    at runFunction (C:\\Users\\Siddharth\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:504:15)\n    at runHTTPS (C:\\Users\\Siddharth\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:529:11)\n    at C:\\Users\\Siddharth\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:694:27\n    at Layer.handle [as handle_request] (C:\\Users\\Siddharth\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Siddharth\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (C:\\Users\\Siddharth\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\node_modules\\express\\lib\\router\\route.js:131:14)\n    at next (C:\\Users\\Siddharth\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\node_modules\\express\\lib\\router\\route.js:131:14)"}}
+[warn] !  Your function was killed because it raised an unhandled error. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageList"},"extension":{},"message":"Your function was killed because it raised an unhandled error."}}
+[debug] [2022-10-30T04:42:00.654Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-10-30T04:42:00.705Z] [worker-us-central1-imageList-01c7a1bf-825d-4792-bd08-987eb514606a]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-imageList-01c7a1bf-825d-4792-bd08-987eb514606a]: exited"}}
+[debug] [2022-10-30T04:42:00.706Z] [worker-us-central1-imageList-01c7a1bf-825d-4792-bd08-987eb514606a]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-imageList-01c7a1bf-825d-4792-bd08-987eb514606a]: FINISHED"}}
