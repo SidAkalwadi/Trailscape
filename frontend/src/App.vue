@@ -307,6 +307,7 @@ export default {
     },
     async sendFileData () {
       console.log('sending file data')
+      this.editmode = false
       this.updateTitlesAndCaptions()
       const body = {
         captions: [],
